@@ -1,48 +1,33 @@
-body, h1, ul {
-    margin: 0;
-    padding: 0;
+.html {
+    font-family: "Poppins", sans-serif;
 }
-.container {
-    max-width: 1140px;
-    margin: auto;
-    padding: 0 15px;
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    margin-left: 100px;
+    margin-top: 10px;
 }
-header {
-    background: #b6b6b6;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-.logo {
-    color: #333;
-    font-family: 'Helvetica Neue', sans-serif;
-    font-size: 24px;
-    line-height: 60px;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
-nav {
-    float: right;
-}
-nav ul {
-    list-style: none;
-}
-nav ul li {
-    display: inline;
-    margin-left: 20px;
-}
-nav ul li a {
+.navbar a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    color: #333;
-    font-size: 16px;
-    font-family: 'Open Sans', sans-serif;
-    transition: color 0.3s ease;
+    font-size: 17px;
+    margin-left: 10px;
+  }
+.navbar a:hover {
+    background: #979797;
+    color: black;
 }
-nav ul li a:hover {
-    color: #007bff;
+#logo {
+    font-weight: bolder;
 }
-/* Clearfix */
-.container::after {
-    content: "";
-    clear: both;
-    display: table;
+.contenido{
+    padding: 16px;
+    margin-top: 100px;
+    height: 1500px; 
+    margin-left: 100px;
 }
