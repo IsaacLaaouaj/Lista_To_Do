@@ -1,3 +1,32 @@
+p{
+    font-size: 18px;
+    margin-right: 100px;
+    text-align: justify;
+}
+
+h1{
+    text-align: 100px;
+    margin-right: 100px;
+}
+
+footer {
+    background-color: #ffffff;
+    color: #333;
+    bottom: 0;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+}
+
+footer p {
+    margin: 5px 0;
+    margin-left: 130px;
+    text-align: justify;
+    font-size: 14px;
+}
+
+.titulo_contenido{
+    margin-top: 60px;
+}
 
 .navbar {
     overflow: hidden;
@@ -35,59 +64,178 @@
 
 .contenido{
     padding: 30px;
-    margin-top: 130px;
-    height: 1500px; 
     margin-left: 100px;
     font-family: "Montserrat" ;
 }
 
-/* Estilo del Contenedor */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+#imagen_contenido {
+    width: 1620px;
+    height: 800px;
+    margin-top: 20px;
 }
 
-/* Ocultar las imágenes por defecto */
-.mySlides {
-  display: none;
+.slider-frame {
+    width: 1620px;
+    height: 800px;
+    margin:50px auto;
+    margin-top: 130px;
+    overflow: hidden;
+
 }
 
-/* Estilo de los botones Next y Previous */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
+.slider-frame ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 20s infinite alternate ease-in-out;
 }
 
-/* Posicionamiento de los botones */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+.slider-frame li {
+    width: 100%;
+    list-style: none;
 }
 
-.prev {
-  left: 0;
+.slider-frame img {
+    width: 100%;
 }
 
-/* Efecto de desvanecimiento */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
+@keyframes slide {
+0% {margin-left: 0;}
+20% {margin-left: 0;}
 
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+25% {margin-left: -100%;}
+45% {margin-left: -100%;}
+
+50% {margin-left: -200%;}
+70% {margin-left: -200%;}
+
+75% {margin-left: -300%;}
+100% {margin-left: -300%;}
 }
 
 
+
+
+
+
+
+/* container title */
+.container-title {
+    font-size: 25px;
+    text-align: center;
+    margin: 0 0 30px 0;
+    color: white;
+    text-shadow: 3px 1px black;
+}
+
+/* container */
+.inputcol {
+    display: grid;
+    column-gap: 5px;
+    grid-template-columns: 60% 10%;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.textarea {
+    min-height: 50px;
+    height: 50px;
+    max-width: 100%;
+    min-width: 100%;
+    border-radius: 10px;
+    border-color: #333;
+    font-size: 20px;
+    padding: 10px 10px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.textarea::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #333;
+}
+
+.textarea::-webkit-scrollbar {
+    width: 10px;
+    cursor: pointer;
+}
+
+.textarea::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #8f8acc;
+    cursor: pointer;
+}
+
+.textarea:focus {
+    outline: none;
+}
+
+.buttoninput {
+    border-radius: 10px;
+    border-color: #333;
+    background-color: white;
+    font-size: 20px;
+}
+
+.buttoninput:hover {
+    background-color: #8f8acc;
+    color: white;
+}
+
+/* js */
+.todolist {
+    margin-top: 20px;
+}
+
+.itemall {
+    display: grid;
+    grid-template-columns: 60% 5% 5%;
+    justify-content: center;
+    margin-bottom: 2px;
+}
+
+.item, .check-button, .trash-button {
+    border: none;
+    background-color: white;
+    min-height: 50px;
+    padding: 10px 10px;
+}
+
+.item {
+    word-wrap: break-word;
+    word-break: break-all;
+    border-radius: 10px 0 0 10px;
+    display: grid;
+    align-content: center;
+    font-size: 20px;
+}
+
+.check-button, .trash-button {
+    font-size: 15px;
+}
+
+.trash-button {
+    border-radius: 0 10px 10px 0;
+}
+
+.check-button:hover {
+    background-color: #37b3cc;
+    color: white;
+}
+
+.trash-button:hover {
+    background-color: #6b73c1;
+    color: white;
+}
+
+.checklist {
+    text-decoration: line-through;
+}
+
+.fa-check, .fa-trash {
+    pointer-events: none;
+}
+
+button, .check-button, .trash-button {
+    cursor: pointer;
+}
