@@ -1,3 +1,4 @@
+
 p{
     font-size: 18px;
     margin-right: 100px;
@@ -9,20 +10,6 @@ h1{
     margin-right: 100px;
 }
 
-footer {
-    background-color: #ffffff;
-    color: #333;
-    bottom: 0;
-    width: 100%;
-    font-family: "Montserrat", sans-serif;
-}
-
-footer p {
-    margin: 5px 0;
-    margin-left: 130px;
-    text-align: justify;
-    font-size: 14px;
-}
 
 .titulo_contenido{
     margin-top: 60px;
@@ -52,7 +39,7 @@ footer p {
 }
 
 .navbar a:hover {
-    background: #0084a3;
+    background: #b0b0b0;
     color: black;
 }
 
@@ -114,27 +101,13 @@ footer p {
 }
 
 
-
-
-
-
-
-/* container title */
-.container-title {
-    font-size: 25px;
-    text-align: center;
-    margin: 0 0 30px 0;
-    color: white;
-    text-shadow: 3px 1px black;
-}
-
 /* container */
 .inputcol {
     display: grid;
     column-gap: 5px;
     grid-template-columns: 60% 10%;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 160px;
 }
 
 .textarea {
@@ -162,7 +135,7 @@ footer p {
 
 .textarea::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    background-color: #8f8acc;
+    background-color: #ffffff;
     cursor: pointer;
 }
 
@@ -172,20 +145,22 @@ footer p {
 
 .buttoninput {
     border-radius: 10px;
-    border-color: #333;
-    background-color: white;
+    border-color: #000000;
+    background-color: rgb(255, 255, 255);
     font-size: 20px;
 }
 
 .buttoninput:hover {
-    background-color: #8f8acc;
+    background-color: #676767;
     color: white;
 }
 
+.tick {
+    width: 25px; 
+    height: auto; 
+  }
+
 /* js */
-.todolist {
-    margin-top: 20px;
-}
 
 .itemall {
     display: grid;
@@ -194,11 +169,22 @@ footer p {
     margin-bottom: 2px;
 }
 
-.item, .check-button, .trash-button {
-    border: none;
-    background-color: white;
+.check-button{
+    margin-top: 2px;
+    border: 1;
+    background-color: rgb(0, 145, 48);
     min-height: 50px;
     padding: 10px 10px;
+    
+}
+
+.trash-button{
+    margin-top: 2px;
+    border: 1;
+    background-color: rgb(240, 124, 124);
+    min-height: 50px;
+    padding: 10px 10px;
+    
 }
 
 .item {
@@ -219,12 +205,12 @@ footer p {
 }
 
 .check-button:hover {
-    background-color: #37b3cc;
+    background-color: #00ff66;
     color: white;
 }
 
 .trash-button:hover {
-    background-color: #6b73c1;
+    background-color: #ff2323;
     color: white;
 }
 
@@ -232,10 +218,22 @@ footer p {
     text-decoration: line-through;
 }
 
-.fa-check, .fa-trash {
-    pointer-events: none;
-}
-
 button, .check-button, .trash-button {
     cursor: pointer;
 }
+
+/* footer */
+footer p {
+    margin: 5px 0;
+    margin-left: 130px;
+    text-align: justify;
+    font-size: 14px;
+}
+footer {
+    background-color: #ffffff;
+    color: #262626;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    font-family: "Montserrat", sans-serif
+  }
