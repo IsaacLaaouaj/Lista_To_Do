@@ -7,7 +7,7 @@ function clickButton(e) {
     addTodo()
 }
 
-// adding todoList
+
 function addTodo() {
     const itemall = document.createElement('div')
     itemall.classList.add('itemall')
@@ -33,7 +33,7 @@ function addTodo() {
     inputtdl.value = ''
 }
 
-// checking and delete todoList 
+
 function okdel(e) {
     const item = e.target
 
