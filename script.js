@@ -37,13 +37,13 @@ function addTodo() {
 function okdel(e) {
     const item = e.target
 
-    // check
+    // hecho
     if (item.classList[0] === 'check-button') {
         const todolist = item.parentElement
         todolist.classList.toggle('checklist')
     }
 
-    // delete
+    // eliminar
     if (item.classList[0] === 'trash-button') {
         const todolist = item.parentElement
         todolist.remove()
