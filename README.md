@@ -5,15 +5,15 @@
 
 La idea nace de poder ofrecer un “To Do List” minimalista y atractivo a la vista que permita a los usuarios organizar sus actividades diarias de manera muy sencilla y visual. El propósito principal de 'Doer' es ofrecer una interfaz intuitiva y amigable:
 
-![](Aspose.Words.a4bb75e9-960c-4a8c-abdd-a8ec187d58cc.002.png)
+![](Imagenes_readme/Aspose.Words.a4bb75e9-960c-4a8c-abdd-a8ec187d58cc.002.png)
 
 El boceto inicial, nos muestra la idea de inicio. “Doer list” se trata de una rectángulo con bordes redondeados que permite introducir la tarea y un botón “Ok” para confirmar la tarea. A continuación las tareas confirmadas se mostrarán en orden de entrada. Las tareas se pueden indicar como hechas (botón verde) o borrarlas directamente (botón rojo). Las que están realizadas se indican con una línea por encima.
 
-![](Aspose.Words.a4bb75e9-960c-4a8c-abdd-a8ec187d58cc.003.jpeg)
+![](Imagenes_readme/Aspose.Words.a4bb75e9-960c-4a8c-abdd-a8ec187d58cc.003.jpeg)
 
 El resultado final después de implementarlo en html, css y JavaScript es el siguiente:
 
-![](Aspose.Words.a4bb75e9-960c-4a8c-abdd-a8ec187d58cc.004.jpeg)
+![](Imagenes_readme/Aspose.Words.a4bb75e9-960c-4a8c-abdd-a8ec187d58cc.004.jpeg)
 
 2. Metodología<a name="_page3_x72.00_y72.00"></a> y herramientas de trabajo
 1. Metodología
@@ -22,9 +22,9 @@ El resultado final después de implementarlo en html, css y JavaScript es el sig
 
 El siguiente gráfico muestra la frecuencia de código a lo largo del tiempo (20/11/23 al 03/12/23), donde refleja las adiciones y eliminaciones de código por día:
 
-![](Aspose.Words.a4bb75e9-960c-4a8c-abdd-a8ec187d58cc.005.jpeg)
+![](Imagenes_readme/Aspose.Words.a4bb75e9-960c-4a8c-abdd-a8ec187d58cc.005.jpeg)
 
-![](Aspose.Words.a4bb75e9-960c-4a8c-abdd-a8ec187d58cc.006.jpeg)
+![](Imagenes_readme/Aspose.Words.a4bb75e9-960c-4a8c-abdd-a8ec187d58cc.006.jpeg)
 
 2. Herramientas<a name="_page4_x72.00_y72.00"></a> de Trabajo
 
@@ -32,13 +32,13 @@ El siguiente gráfico muestra la frecuencia de código a lo largo del tiempo (20
 
 Este IDE nos proporciona funcionalidades avanzadas y extensiones que facilitan la escritura eficiente de código HTML, CSS y JavaScript. La extensión utilizada es “Live Server” que permite plasmar en tiempo real los cambios:
 
-![](Aspose.Words.a4bb75e9-960c-4a8c-abdd-a8ec187d58cc.007.jpeg)
+![](Imagenes_readme/Aspose.Words.a4bb75e9-960c-4a8c-abdd-a8ec187d58cc.007.jpeg)
 
 <a name="_page4_x72.00_y438.59"></a>Netlify
 
 Para el despliegue y hosting continuo de 'Doer', se optó por Netlify, una plataforma de alojamiento web que ofrece despliegues automáticos directamente desde repositorios de Github. Netlify permite ver de forma rápida y sencilla los cambios de la web. Imagen de la plataforma:
 
-![](Aspose.Words.a4bb75e9-960c-4a8c-abdd-a8ec187d58cc.008.jpeg)No se ha utilizado “GitHub pages” porque demoraba mucho en los despliegues a la hora de realizar cambios en la web.
+![](Imagenes_readme/Aspose.Words.a4bb75e9-960c-4a8c-abdd-a8ec187d58cc.008.jpeg)No se ha utilizado “GitHub pages” porque demoraba mucho en los despliegues a la hora de realizar cambios en la web.
 
 3. Funcionalidades<a name="_page5_x72.00_y101.09"></a> de la página web
 1. Apartados
@@ -50,7 +50,7 @@ Para el despliegue y hosting continuo de 'Doer', se optó por Netlify, una plata
 - Bibliografía: Se detalla el proceso de desarrollo del sitio web.
 - Contacto: Información de contacto.
 
-![](Aspose.Words.a4bb75e9-960c-4a8c-abdd-a8ec187d58cc.009.png)
+![](Imagenes_readme/Aspose.Words.a4bb75e9-960c-4a8c-abdd-a8ec187d58cc.009.png)
 
 Donde cada apartado de la página web es enlazada a los otros apartados. Esto lo hemos conseguido mediante el atributo “href” de html, que permite integrar una dirección a un atributo de html.
 
@@ -58,7 +58,7 @@ Donde cada apartado de la página web es enlazada a los otros apartados. Esto lo
 
 <a name="_page5_x72.00_y388.26"></a>Se ha procurado ser lo más minimalista posible tomando de inspiración sitios web como <https://www.onedesigncompany.com/> y <https://www.leemons.io/> .
 
-![](Aspose.Words.a4bb75e9-960c-4a8c-abdd-a8ec187d58cc.010.jpeg)
+![](Imagenes_readme/Aspose.Words.a4bb75e9-960c-4a8c-abdd-a8ec187d58cc.010.jpeg)
 
 La tipografía escogida es “Montserrat”. Se trata de una tipografía de uso libre, bajo la licencia “SIL Open Font License”, lo que permite que se pueda utilizar en el ámbito académico. La tipografía es proveniente de Google Fonts, que mediante su API (application programming interface) se ha podido integrar en la web vía html:
 
@@ -68,7 +68,7 @@ Para no saturar la página y que favorezca a su sencillez los colores escogidos 
 
 Para el logotipo, se ha utilizado la herramienta de [Photopea | Online Photo Editor](https://www.photopea.com/), donde se se ha ido realizando pruebas y bocetos hasta decidir el más visual y con mejor aspecto:
 
-![](Aspose.Words.a4bb75e9-960c-4a8c-abdd-a8ec187d58cc.012.png)
+![](Imagenes_readme/Aspose.Words.a4bb75e9-960c-4a8c-abdd-a8ec187d58cc.012.png)
 
 4. Desarrollo<a name="_page6_x72.00_y291.72"></a> del código de la página web
 
@@ -92,11 +92,11 @@ El código CSS proporciona estilos y los diseños visuales para los elementos qu
 
 Para realizar el “Slider” de la página web, se ha utilizado la herramienta de “keyframes” de CSS, que permite determinar el tiempo de la animación y duración de cada imagen. En este caso, la animación está destinada a desplazar elementos horizontalmente. Todas las imágenes de la página web no disponen de derechos de autor y son de uso libre (fuente de las imágenes “freepik”):
 
-![](Aspose.Words.a4bb75e9-960c-4a8c-abdd-a8ec187d58cc.013.jpeg)
+![](Imagenes_readme/Aspose.Words.a4bb75e9-960c-4a8c-abdd-a8ec187d58cc.013.jpeg)
 
 En el 75% hasta el 100% del tiempo de la animación, el contenido continúa desplazándose hacia la izquierda, aplicando un margen izquierdo de -300%. Este movimiento hacia la izquierda fuera del área visible se mantiene durante el resto de la animación:
 
-@keyframes slide { 0![](Aspose.Words.a4bb75e9-960c-4a8c-abdd-a8ec187d58cc.014.png)% {margin-left: 0;} 20% {margin-left: 0;}
+@keyframes slide { 0![](Imagenes_readme/Aspose.Words.a4bb75e9-960c-4a8c-abdd-a8ec187d58cc.014.png)% {margin-left: 0;} 20% {margin-left: 0;}
 
 25% {margin-left: -100%;} 45% {margin-left: -100%;}
 
@@ -108,15 +108,13 @@ En el 75% hasta el 100% del tiempo de la animación, el contenido continúa desp
 
 Programamos en JavaScript para crear la función de lista de tareas (To-Do List), donde seleccionamos los elementos de HTML mediante las variables:
 
-const inputtdl = document.querySelector('.textarea') const buttontdl = document.querySelector(![](Aspose.Words.a4bb75e9-960c-4a8c-abdd-a8ec187d58cc.015.png)'.buttoninput') const listtdl = document.querySelector('.todolist')
+const inputtdl = document.querySelector('.textarea') const buttontdl = document.querySelector(![](Imagenes_readme/Aspose.Words.a4bb75e9-960c-4a8c-abdd-a8ec187d58cc.015.png)'.buttoninput') const listtdl = document.querySelector('.todolist')
 
 Programamos la función “cickButton”, con la entrada “e”. La función se ejecuta cuando se hace click en el botón “Ok” que tiene la clase definida '.buttoninput' y llama a la función “addTodo()”:
 
-function clickButton(e) {![](Aspose.Words.a4bb75e9-960c-4a8c-abdd-a8ec187d58cc.016.png)
+function clickButton(e) {![](Imagenes_readme/Aspose.Words.a4bb75e9-960c-4a8c-abdd-a8ec187d58cc.016.png)
 
-e.preventDefault() addTodo()
-
-}
+e.preventDefault() addTodo()}
 
 Esta función (addTodo()) agrega los elementos a la lista de tareas, es decir por cada click en el botón “Ok” crea un elemento <div> con la clase “.itemall” junto con elemento <p> que le asignamos el texto de la variable “inputtdl”. En el caso de que este vacío la función termina.
 
@@ -124,7 +122,7 @@ Para poder dar por hecho o eliminar la tarea, programamos dos botones: uno para 
 
 Finalmente agregamos los elementos creados al elemento “.todolist” referencias por “listtdl”:
 
-function addTodo() {![](Aspose.Words.a4bb75e9-960c-4a8c-abdd-a8ec187d58cc.017.png)
+function addTodo() {![](Imagenes_readme/Aspose.Words.a4bb75e9-960c-4a8c-abdd-a8ec187d58cc.017.png)
 
 const itemall = document.createElement('div') itemall.classList.add('itemall')
 
@@ -134,7 +132,7 @@ if (inputtdl.value === '') return
 
 const checkbutton = document.createElement("button") checkbutton.innerHTML = '<i class="fa-solid fa-check"></i>' checkbutton.classList.add("check-button") itemall.appendChild(checkbutton)
 
-const trashbutton = document.createElement("button") trashbutton.innerHTML =![](Aspose.Words.a4bb75e9-960c-4a8c-abdd-a8ec187d58cc.018.png) '<i class="fa-solid fa-trash"></i>' trashbutton.classList.add("trash-button") itemall.appendChild(trashbutton)
+const trashbutton = document.createElement("button") trashbutton.innerHTML =![](Imagenes_readme/Aspose.Words.a4bb75e9-960c-4a8c-abdd-a8ec187d58cc.018.png) '<i class="fa-solid fa-trash"></i>' trashbutton.classList.add("trash-button") itemall.appendChild(trashbutton)
 
 listtdl.appendChild(itemall) inputtdl.value = ''
 
@@ -144,7 +142,7 @@ La función `okdel()` lo hacemos para que maneje los eventos de click dentro del
 
 Si el clic es en un botón de clase `check-button`, alterna la clase `checklist` del elemento padre del botón (`todolist`) para marcar como completado el ítem. Si el clic es en un botón de clase `trash-button`, elimina el elemento padre (`todolist`) de la lista:
 
-function okdel(e) {![](Aspose.Words.a4bb75e9-960c-4a8c-abdd-a8ec187d58cc.019.png)
+function okdel(e) {![](Imagenes_readme/Aspose.Words.a4bb75e9-960c-4a8c-abdd-a8ec187d58cc.019.png)
 
 const item = e.target
 
@@ -170,7 +168,7 @@ Y ya para acabar el botón asociado a la clase `.buttoninput` activa la función
 
 Y ya para acabar la fundación “clickButton” se activa al hacer clic en el botón “.buttoninput” y la función “okdel” se activa al hacer clic en cualquier parte de la lista “.todolist”:
 
-buttontdl.addEventListener('click', clickButton) listtdl.addEventListener(![](Aspose.Words.a4bb75e9-960c-4a8c-abdd-a8ec187d58cc.020.png)'click', okdel)
+buttontdl.addEventListener('click', clickButton) listtdl.addEventListener(![](Imagenes_readme/Aspose.Words.a4bb75e9-960c-4a8c-abdd-a8ec187d58cc.020.png)'click', okdel)
 
 5. Bibliografía
 
